@@ -22,3 +22,6 @@ I approached the animation by using Flutter's built-in animation and gesture han
 # Challenges
 
 One of the challenges I faced during the development process was making sure the animation was performant and smooth on all devices, especially older ones. To achieve this, I used the vsync property of the AnimationController and set it to the current state object using the SingleTickerProviderStateMixin. I also used the addListener() method to ensure that the setState() method was only called when the animation value changed, rather than on every frame, which helped to optimize the performance of the animation.
+
+# Demo Video
+[TaskVideo.webm](https://user-images.githubusercontent.com/52443790/230787871-a1904e6c-d3cb-47a5-b8c9-bea618fd273d.webm)
